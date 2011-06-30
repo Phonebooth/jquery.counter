@@ -27,6 +27,18 @@
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="https://raw.github.com/Phonebooth/jquery.counter/master/js/jquery.counter.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+      $('.counter-me').counter({show_comma: true});
+  }); 
+  </script>
+  <style>
+      .space {
+          margin-top: 20px;
+      }
+  </style>
 </head>
 
 <body>
@@ -47,6 +59,8 @@
     <div class="description">
       A jQuery plugin that simply counts based on a base number and a unit rate per second
     </div>
+    
+    <div class="counter-me"></div>
 
     <h2>Authors</h2>
 <p>Brandon Smith (bsmith@bandwidth.com)
