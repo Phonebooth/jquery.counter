@@ -1,0 +1,36 @@
+.counter-wrap {
+    height:30px;
+    overflow:hidden;
+}
+
+.counter-left {
+    height:30px;
+    width:2px;
+    position:relative;
+    background-image:url(../images/counter-left.png);
+    float:left;
+}
+
+.counter-right {
+    height:30px;
+    width:2px;
+    position:relative;
+    background-image:url(../images/counter-right.png);
+    float:left;
+}
+
+.counter-spliter {
+    height:30px;
+    width:2px;
+    position:relative;
+    background-image:url(../images/counter-spliter.png);
+    float:left;
+}
+
+.counter-number {
+    height:330px;
+    width:17px;
+    position:relative;
+    background-image:url(../images/counter-tiles.png);
+    float:left;
+}
